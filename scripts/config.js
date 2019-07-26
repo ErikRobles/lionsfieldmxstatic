@@ -1,4 +1,4 @@
 const config = {
-    SITE_KEY : 'XXXxxxxxxx',
-    SECRET_KEY : 'xxxxxxxxxx',
+    SITE_KEY : 'XXXxxxxxxxx',
+    SECRET_KEY : 'xxxxxxxxxxx',
   }
