@@ -15,38 +15,63 @@
      <link rel="stylesheet" href="./stylesheets/style.css">
      <!-- <script src="https://www.google.com/recaptcha/api.js"></script> -->
 
-    <title>Lionsfield | Mergers and Acquisitions</title>
+    <title>Lionsfield | Contacto Falló</title>
     </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark transparent-nav-custom fixed-top" id="navbar"><a class="navbar-brand" href="index.html"><img class="pb-2 logo-image" src="./assets/img/logo.png" alt="Lionsfield brand Logo" /></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-          <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-              <ul class="navbar-nav ml-auto">
-              <li class="nav-item"><a href="index.html" class="text-center nav-link"><i class="fa fa-home"></i><br />Inicio <span class="sr-only">(current)</span></a></li>
-              <li class="nav-item"><a href="quienes-somos.html" class="text-center nav-link"> <i class="fa fa-users"></i><br />Quienes Somos</a></li>
-              <li class="nav-item"><a href="nuestros-clientes.html" class="text-center nav-link"> <i class="fa fa-building"></i><br />Nuestros Clientes</a></li>
-              <li class="nav-item"><a href="metodologia.html" class="text-center nav-link"><i class="fa fa-line-chart"></i><br />Metodología</a></li>
-              <li class="nav-item"><a href="certificaciones.html" class="text-center nav-link"><i class="fa fa-graduation-cap"></i><br />Certificaciones</a></li>
-              <li class="nav-item"><a href="contacto.html" class="text-center nav-link"><i class="fa fa-envelope"></i><br />Contacto</a></li>
-              </ul>  
-          </div>
-    </nav>
-<div class="container breathe">
-    <h1 class="pt-3">Mergers and Acquisitions Word Search</h1>
-    <div class="meta-author author pt-3 pb-3">
-      <div class="fa fa-user-o"> <a href="https://lionsfield.mx/author/erik-james-robles/" title="Posts by Erik James Robles" rel="author">Erik Robles 
-          <div class="fa fa-comment-o"> <a href="#">0</a></div></a></div>
+  <nav class="navbar navbar-expand-md navbar-dark transparent-nav-custom fixed-top" id="navbar"><a class="navbar-brand" href="index.html"><img class="pb-2 logo-image" src="./assets/img/logo.png" alt="Lionsfield brand Logo" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="index.html" class="text-center nav-link"><i class="fa fa-home"></i><br />Inicio <span class="sr-only">(current)</span></a></li>
+            <li class="nav-item"><a href="quienes-somos.html" class="text-center nav-link"> <i class="fa fa-users"></i><br />Quienes Somos</a></li>
+            <li class="nav-item"><a href="nuestros-clientes.html" class="text-center nav-link"> <i class="fa fa-building"></i><br />Nuestros Clientes</a></li>
+            <li class="nav-item"><a href="metodologia.html" class="text-center nav-link"><i class="fa fa-line-chart"></i><br />Metodología</a></li>
+            <li class="nav-item"><a href="certificaciones.html" class="text-center nav-link"><i class="fa fa-graduation-cap"></i><br />Certificaciones</a></li>
+            <li class="nav-item"><a href="contacto.html" class="text-center nav-link active"><i class="fa fa-envelope"></i><br />Contacto</a></li>
+            </ul>  
+        </div>
+  </nav>
+
+<div class="container content-wrapper breathe">
+    <br>
+    <div class="border border-danger bg-danger">
+        <h2 class="fundamental-heading text-center text-white p-5">Lo sentimos. No pudimos enviar tu correo.</h2>
+        <p class="text-white p-5">Es posible que tu anti-virus esta bloqueando el funcionamiento de formulario.</p>
     </div>
-    <p class="blog">Today’s word search is about Mergers and Acquisitions.  Make sure to click on each word and follow the link to find the definitions.  Good luck.</p>
-    <p class="blog"> <a href="https://englishworkshopmexico.wordpress.com/2012/01/29/mergers-and-acquisitions-word-search/">Read more…</a></p>
-    <div class="blog-col-wrapper pb-5">
-      <div class="col-1"><img src="/assets/img/f1.jpg"></div>
-      <div class="col-2">
-        <p class="written">Written by<br><span class="blog-author"> Erik James Robles</span></p>
-      </div>
-    </div>
-  </div>
-  <footer class="footer" role="contentinfo">
+    <a class="shadow btn btn-danger mt-2 mb-2" href="index.html">INICIO</a>
+    <a class="shadow btn btn-danger mt-2 mb-2" href="contacto.html">Contacto</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</div>
+<footer class="footer" role="contentinfo">
     <div class="footer-wrapper-content-area">
         <div class="row">
         <div class="columnA">

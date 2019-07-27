@@ -725,6 +725,10 @@ padding: 20px 22px;
 
 }
 
+.fa-home:before {
+  font-size: 20px;
+}
+
 @media (max-width: 400px) {
 .circle-icon-2:nth-child(1),
 .circle-icon-2:nth-child(2) {
