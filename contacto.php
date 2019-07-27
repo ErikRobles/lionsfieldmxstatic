@@ -31,7 +31,7 @@
               <li class="nav-item"><a href="nuestros-clientes.html" class="text-center nav-link"> <i class="fa fa-building"></i><br />Nuestros Clientes</a></li>
               <li class="nav-item"><a href="metodologia.html" class="text-center nav-link"><i class="fa fa-line-chart"></i><br />Metodología</a></li>
               <li class="nav-item"><a href="certificaciones.html" class="text-center nav-link"><i class="fa fa-graduation-cap"></i><br />Certificaciones</a></li>
-              <li class="nav-item"><a href="contacto.php" class="text-center nav-link"><i class="fa fa-envelope"></i><br />Contacto</a></li>
+              <li class="nav-item"><a href="contacto.html" class="text-center nav-link"><i class="fa fa-envelope"></i><br />Contacto</a></li>
               </ul>  
           </div>
     </nav>
@@ -57,17 +57,19 @@
                                     class="form-control"
                                     name="name"
                                     id="name"
+                                    type="text"
                                     required
                                 />
                             </div>
                             <br/><br/>
                             <div class="form-group col-md-10">
-                            <label class="content-2" for="inputSubject">Empresa</label>
+                            <label class="content-2" for="inputSubject">Empresa (Campo Requerido)</label>
                             <input
                                 placeholder="Empresa"
                                 class="form-control"
                                 name="subject"
                                 id="subject"
+                                required 
                             />
                             </div>
                             <br/><br/>
@@ -85,13 +87,17 @@
                             <br/><br/>
                             <div class="form-group col-md-10">
                             <label class="content-2" for="inputTextarea">Mensaje (Campo Requerido)</label>
-                            <textarea placeholder="Mensaje" class="form-control" name="message" id="message" required></textarea>
+                            <textarea 
+                                placeholder="Mensaje" 
+                                class="form-control" 
+                                name="message" 
+                                id="message" 
+                                required
+                                pattern="[A-Za-z-0-9]+\s[A-Za-z-'0-9]+"></textarea>
                             </div>
                             <br/><br/>
-                            <!-- <div class="alert">¡Éxito! ¡Tu mensaje fue enviado exitosamente!</div> -->
                             <div style="display: block; transform: scale(0.77); tranform-origin: 0 0; webkit-transform-origin:0 0;">
                             <div class="g-recaptcha" sitekey="6LcNl68UAAAAAAvCNxmuElsEWtn0ayHB25t5kDV1"></div> 
-                              <!-- <div id="RecaptchaSpot"></div> -->
                             </div>
                             <br/><br/>
                             </div> 
