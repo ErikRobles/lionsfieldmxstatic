@@ -1,4 +1,7 @@
 <?php
+
+$sm = "";
+
 if (isset($_POST['submit'])) {
     $name = $_POST['name'];
     $subject = $_POST['subject'];
@@ -9,10 +12,13 @@ if (isset($_POST['submit'])) {
     $headers = "From: " . $mailFrom;
     $txt = "You have received an e-mail from ".$name .".\n\n" .$message;
 
-    mail($mailTo, $subject, $txt, $headers);
+    $send = mail($mailTo, $subject, $txt, $headers);
 
-    header("Location: success.php?mailsent");
+    if($send) {
+        header("Location: success.php?mailsent");
+    } else {
+        echo '<h4>Lo sentimos. No pudimos enviar tu correo.</h4>';
+    }
 }
-
 
 ?>
